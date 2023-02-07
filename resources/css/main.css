@@ -1,0 +1,107 @@
+@import "tailwind/_base.css";
+@import "tailwind/_components.css";
+@import "tailwind/_utilities.css";
+
+@import "_checkbox-radio-switch.css";
+@import "_misc.css";
+@import "_progress.css";
+@import "_scrollbars.css";
+@import "_table.css";
+
+.layout-authenticated {
+  min-height: 100vh;
+}
+
+.prose {
+  p {
+    @apply dark:text-gray-100;
+  }
+
+  h1, h2, h3, h4, h5, strong {
+    @apply dark:text-white;
+  }
+
+  :where(a):not(:where([class~="not-prose"] *)) {
+    color: #266bff;
+  }
+
+  img {
+    display: inline-block;
+  }
+
+  .ck {
+    p {
+      color: var(--tw-prose-body);
+    }
+
+    h1, h2, h3, h4, h5 {
+      color: var(--tw-prose-headings);
+    }
+
+    strong {
+      color: var(--tw-prose-bold);
+    }
+  }
+}
+
+.text-gray {
+  @apply text-gray-600 dark:text-gray-100;
+}
+
+.ck-editor__main {
+  @apply prose max-w-full;
+}
+
+.required::after {
+  content: " *";
+  @apply text-red-500 dark:text-red-400;
+}
+
+.vs__dropdown-toggle {
+  padding: 1px 0 5px !important;
+  min-height: 48px;
+}
+
+.dark .vs__dropdown-toggle {
+  background-color: rgb(31 41 55);
+}
+
+.vs__selected-options .vs__selected {
+  padding: 6px 11px;
+}
+
+.vs--single .vs__selected-options .vs__selected {
+  color: black;
+}
+
+.dark .vs--single .vs__selected-options .vs__selected {
+  color: rgb(243 244 246);
+}
+
+.vs__selected-options .vs__deselect {
+  margin-left: 10px;
+}
+
+.vs__dropdown-option--selected {
+  background-color: var(--vs-selected-bg);
+}
+
+.vs__dropdown-option--highlight .btn-remove-option {
+  color: rgb(243 244 246);
+}
+
+.vs__search::placeholder {
+  color: #707070 !important;
+}
+
+.dark .vs__search::placeholder {
+  color: #9ca3af !important;
+}
+
+.dark .btn-remove-option {
+  color: rgb(243 244 246) !important;
+}
+
+.min-w-48 {
+  min-width: 12rem;
+}

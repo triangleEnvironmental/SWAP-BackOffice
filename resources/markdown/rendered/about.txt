@@ -1,0 +1,15 @@
+<h2>
+    ABOUT
+</h2>
+<p>
+    Waste Tracker was launched in November 2020. We have engaged users, service providers and municipalities to track progress that has been made on the issues that citizens have brought to our attention.
+</p>
+<p>
+    Anyone can report on a solid waste issue using our Waste Tracker and explore other reports on the <a href="https://www.waste-tracker.com">SWAP website</a>. We are currently offering this platform in Siem Reap, Stueng Saen, and Kampong Cham municipalities.
+</p>
+<p>
+    This Application is made possible by the support of the American People through the United States Agency for International Development (USAID). The contents of this Application are the sole responsibility of Triangle Environmental Health Initiative, LLC and do not necessarily reflect the views of USAID or the United States Government.
+</p>
+<p style="text-align:center;">
+    <img class="image_resized" style="width:80%;" src="http://localhost:8000/usaid_logo.png" alt="USAID Logo">
+</p>

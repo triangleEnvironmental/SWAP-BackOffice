@@ -1,0 +1,12 @@
+.dp__input {
+  height: 3rem;
+}
+
+.dp__theme_light {
+  --dp-border-color: var(--vs-border-color);
+}
+
+.dp__theme_dark {
+  --dp-border-color: var(--vs-border-color);
+  --dp-background-color: rgb(31 41 55);
+}
