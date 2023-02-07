@@ -341,7 +341,6 @@ To make it easier to work with queries related to GIS, we use **laravel-postgis*
 * `setup-supervisor.sh` : this script is to setup supervisor automatically on Ubuntu server
 * `php artisan termly:update` : to fetch/update content of privacy policy and terms of use
 * `php artisan update:permission` : to reassign permissions to roles
-* `./build_test.sh` : to automatically update the latest code on staging server
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
