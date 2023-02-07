@@ -1,3 +1,4 @@
+<!-- PROJECT SHIELDS -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -23,36 +24,36 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#technologies">Technologies</a></li>
-    <li><a href="#architecture">Architecture</a></li>
-    <li><a href="#functionalities">Functionalities</a></li>
-    <li><a href="#system-actors">System Actors</a></li>
-    <li><a href="#relational-diagram">Relational Diagram</a></li>
+    <li><a href="#01-introduction">Introduction</a></li>
+    <li><a href="#02-technologies">Technologies</a></li>
+    <li><a href="#03-architecture">Architecture</a></li>
+    <li><a href="#04-functionalities">Functionalities</a></li>
+    <li><a href="#05-system-actors">System Actors</a></li>
+    <li><a href="#06-relational-diagram">Relational Diagram</a></li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#07-getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#71-prerequisites">Prerequisites</a></li>
+        <li><a href="#72-installation">Installation</a></li>
       </ul>
     </li>
     <li>
-      <a href="#notice">Notice</a>
+      <a href="#08-notice">Notice</a>
       <ul>
-        <li><a href="#project-structure">Project Structure</a></li>
-        <li><a href="#authentication">Authentication</a></li>
-        <li><a href="#roles-and-permissions">Roles and Permissions</a></li>
-        <li><a href="#crawler">Crawler</a></li>
-        <li><a href="#seeder">Seeder</a></li>
-        <li><a href="#postgis">PostGIS</a></li>
-        <li><a href="#using-existing-script">Using Existing Script</a></li>
-        <li><a href="#notification">Notification</a></li>
-        <li><a href="#admin-template">Admin Template</a></li>
-        <li><a href="#cluster-marker">Cluster Marker</a></li>
-        <li><a href="#file-storage">File Storage</a></li>
-        <li><a href="#activity-log">Activity Log</a></li>
-        <li><a href="#modify-login-function-fortify">Modify Login Function Fortify</a></li>
-        <li><a href="#backup">Backup</a></li>
+        <li><a href="#81-project-structure">Project Structure</a></li>
+        <li><a href="#82-authentication">Authentication</a></li>
+        <li><a href="#83-roles-and-permissions">Roles and Permissions</a></li>
+        <li><a href="#84-crawler">Crawler</a></li>
+        <li><a href="#85-seeder">Seeder</a></li>
+        <li><a href="#86-postgis">PostGIS</a></li>
+        <li><a href="#87-using-existing-script">Using Existing Script</a></li>
+        <li><a href="#88-notification">Notification</a></li>
+        <li><a href="#89-admin-template">Admin Template</a></li>
+        <li><a href="#810-cluster-marker">Cluster Marker</a></li>
+        <li><a href="#811-file-storage">File Storage</a></li>
+        <li><a href="#812-activity-log">Activity Log</a></li>
+        <li><a href="#813-modify-login-function-fortify">Modify Login Function Fortify</a></li>
+        <li><a href="#814-backup">Backup</a></li>
       </ul>
     </li>
   </ol>
@@ -190,19 +191,19 @@ This project is a revamped version to improve three main objectives over the fir
 
 ## 08. Notice
 
-#### 8.1.1. Project Structure
+#### 8.1. Project Structure
 Back office was started from Laravel Jetstream with Intertia. For more information about project structure, please check https://jetstream.laravel.com/2.x/stacks/inertia.html.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#### 8.1.2. Authentication
+#### 8.2. Authentication
 
 * **Laravel Sanctum**: since we are using Laravel Jetstream, it comes with Laravel Sanctum for authentication.
 * **Firebase Auth**: is required to send OTP through SMS. Once a citizen user authenticates with Firebase Auth, a token ID is passed to backend through API to verify and generate an access token.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#### 8.1.3. Roles and Permissions
+#### 8.3. Roles and Permissions
 * This project has 4 predefined roles:
   1. Super Admin
   2. Institutional Admin
@@ -248,7 +249,7 @@ Permissions::registerPermissions([
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#### 8.1.4. Crawler
+#### 8.4. Crawler
 
 To keep Privacy Policy and Terms of Use up to date, we made a crawler using Taiko (https://taiko.dev/) to check the updated content once a day.
 * To update the contents manually, run `php artisan termly:update`
@@ -263,7 +264,7 @@ sudo apt-get install libasound2
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#### 8.1.5. Seeder
+#### 8.5. Seeder
 
 After setting up the back-office, we need to kickstart with pre-config data.
 ```shell
@@ -272,13 +273,13 @@ php artisan db:seed
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#### 8.1.6. PostGIS
+#### 8.6. PostGIS
 
 To make it easier to work with queries related to GIS, we use **laravel-postgis**. For further information, please check https://github.com/mstaack/laravel-postgis.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#### 8.1.7. Using Existing Script
+#### 8.7. Using Existing Script
 * `setup-schedule.sh` : this script is to add a cronjob for this project on Ubuntu server
 * `setup-supervisor.sh` : this script is to setup supervisor automatically on Ubuntu server
 * `php artisan termly:update` : to fetch/update content of privacy policy and terms of use
@@ -287,7 +288,7 @@ To make it easier to work with queries related to GIS, we use **laravel-postgis*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#### 8.1.8. Notification
+#### 8.8. Notification
 
 * Currently, push notification will be sent by the following events:
   * Report status has been changed
@@ -301,19 +302,19 @@ To make it easier to work with queries related to GIS, we use **laravel-postgis*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#### 8.1.9. Admin Template
+#### 8.9. Admin Template
 
 * We use **AdminOne** template since it simple, easy to configure and works very well with `Laravel Jetstream`. https://github.com/justboil/admin-one-vue-tailwind
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#### 8.1.10. Cluster Marker
+#### 8.10. Cluster Marker
 
 * To make displaying markers works well on large scale of data, we cluster the markers on server-side use `ST_ClusterDBScan` function. For more detail, check https://postgis.net/docs/ST_ClusterDBSCAN.html.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#### 8.1.11. File Storage
+#### 8.11. File Storage
 
 * To enable storage: `php artisan storage:link`
 * The files we be store in `public` folder in local storage.
@@ -327,13 +328,13 @@ To make it easier to work with queries related to GIS, we use **laravel-postgis*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#### 8.1.12. Activity Log
+#### 8.12. Activity Log
 
 * For logging activity, we use `spatie/laravel-activitylog`. For more information, check https://github.com/spatie/laravel-activitylog.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#### 8.1.13. Modify Login Function Fortify
+#### 8.13. Modify Login Function Fortify
 
 With Laravel Stream, it already has built-in login feature. However, the email column has to be case-insensitive. So we need to modify the logic by adding the following statement to the `boot()` method in `app/Providers/FortifyServiceProvider.php`
 
@@ -355,7 +356,7 @@ public function boot()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#### 8.1.14. Backup
+#### 8.14. Backup
 
 Using Laravel Backup from spatie https://github.com/spatie/laravel-backup.
 
