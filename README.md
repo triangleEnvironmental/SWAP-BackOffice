@@ -88,50 +88,106 @@ This project is a revamped version to improve three main objectives over the fir
 
 ## 04. Functionalities
 
-* Authentification
-  * Input phone number page
-  * Input OTP page
-  * Resend OTP after 120 seconds
-  * Get start with first name and last name
-  * Select location page
-  * Logout
-* Profile Management
-  * Edit profile page
-  * Update first name and last name
-  * Update location and address
-  * Upload profile photo
-  * Delete profile photo
-  * Display service provider and municipality name
-* Settings
-  * Settings page layout
-  * Change language
-* Reporting
-  * Create a report
-  * View report listing
-  * View reports on map
-  * View report details
+* Authentication
+  * Backoffice login page
+  * Configure E-mail for reset password
+  * API login with OTP
+  * API login with e-mail and password
+* User management
+  * Create user
+  * Update profile and password
+  * Display layout based on user's permissions
+  * Update user information
+  * Disable/Enable user
+  * User listing page
+* Roles and permissions
+  * Create role: Super admin, Admin (SP/Municipality), Member (SP/Municipality)
+  * Assign permissions to each role
+  * Apply authorization checking
+* Sector management
+  * List sectors
+  * Create a new sector
+  * Update a sector
+  * Delete a sector
+* Service provider management
+  * List service provider
+  * Create a new service provider
+  * Update a service area
+  * User update their own service provider
+  * Delete a service provider
+  * List a service provider service area
+  * Create a service provider service area
+  * Update a service provider service area
+  * Delete service provider service area
+* Municipality management
+  * List municipality
+  * Create a new municipality
+  * Update a municipality
+  * User update their own municipality
+  * Delete a municipality
+  * List municipality service areas
+  * Create municipality service areas
+  * Update municipality service areas
+  * Delete municipality service areas
+* Service provider/Municipality user management
+  * List user under the same SP/Municipality
+  * Create/Update user under the same SP/Municipality
+  * Disable/Enable members
+* Report type management
+  * List report type
+  * Create report type
+  * Update report type
+  * Delete report type
+* Report management
+  * Report List View
+  * Report Map View
+  * Report Filter
+  * Preview report popup
+  * Report detail
+  * Navigate report to google map
+  * Delete report
+* Report moderation
+  * Comment on report
+  * Change report status
   * View report comments
-  * View moderation history
-* Home Page
-  * View municipality of current location
-  * Random clean city tip cards
-  * Create report button
-  * Page navigation on home page
-* FAQ
-  * List clean city tip under available sector
-  * View clean city tip detail
+  * Moderation history on report
+  * Delete comment
+* Report assignment
+  * List assigned reports
+  * Assign report to a user
+  * Unassign a report
+* Report visibility
+  * Configure duration range for public report to be visible
+  * Configure duration for ignored private report to be visible
+* Export report CSV
+* FAQ category management
+  * Create/Update FAQ category
+  * List FAQ categroy
+  * Delete FAQ categroy
+  * Search FAQ categroy
+* FAQ management
+  * Create/update FAQ
+  * List FAQ
+  * Search/Filter FAQ
+  * Delete FAQ
+* Notification preset
+  * Create/Update notification preset
+  * List notification presets to users under the same institution / super admin see everything
+  * Delete notification preset
+  * Search and filter notification preset on list page
+  * Apply notification preset on update report status
+  * Apply notification preset on send notification to area
 * Notification
-  * Receive push notification
-  * Tap on notification to navigate to notification detail page
-  * Notification detail page
-  * List notifications page
-  * Mark read all notifications
-  * Count notification not yet read on bell icon
-* My Report History
-* Terms of Service Page
-* Privacy Policy Page
-* About Page
-* Citizen comment on reports
+  * Send notifications to citizen app when someone comments on their report
+  * Send notification to citizen app when someone updates status of their report
+  * Institutional user send notification to citizens in their area
+  * Send notification to moderator app when someone assigns them to a report
+  * List citizen notifications
+* Privacy policy page
+* Term of use page
+* Data migration
+  * Migrate users
+  * Migrate reports
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
