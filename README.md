@@ -1,16 +1,17 @@
+<a name="readme-top"></a>
+
 <!-- PROJECT SHIELDS -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/triangleEnvironmental/SWAP-BackOffice">
-    <img src="https://raw.githubusercontent.com/triangleEnvironmental/SWAP-BackOffice/main/resources/doc/graphic.png" alt="Logo" width="80" height="80">
+    <img src="https://raw.githubusercontent.com/triangleEnvironmental/SWAP-BackOffice/main/resources/doc/graphic.png" alt="Logo"  height="80">
   </a>
 
   <h3 align="center">SWAP Back-Office</h3>
@@ -369,3 +370,16 @@ php artisan backup:run
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/triangleEnvironmental/SWAP-BackOffice.svg?style=for-the-badge
+[contributors-url]: https://github.com/triangleEnvironmental/SWAP-BackOffice/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/triangleEnvironmental/SWAP-BackOffice.svg?style=for-the-badge
+[forks-url]: https://github.com/triangleEnvironmental/SWAP-BackOffice/network/members
+[stars-shield]: https://img.shields.io/github/stars/triangleEnvironmental/SWAP-BackOffice.svg?style=for-the-badge
+[stars-url]: https://github.com/triangleEnvironmental/SWAP-BackOffice/stargazers
+[issues-shield]: https://img.shields.io/github/issues/triangleEnvironmental/SWAP-BackOffice.svg?style=for-the-badge
+[issues-url]: https://github.com/triangleEnvironmental/SWAP-BackOffice/issues
+[license-shield]: https://img.shields.io/github/license/triangleEnvironmental/SWAP-BackOffice.svg?style=for-the-badge
+[license-url]: https://raw.githubusercontent.com/triangleEnvironmental/SWAP-BackOffice/main/LICENSE
