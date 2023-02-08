@@ -12,8 +12,8 @@
 <div align="center">
   <a href="https://github.com/triangleEnvironmental/SWAP-BackOffice">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/triangleEnvironmental/SWAP-BackOffice/main/resources/doc/white_logo.png" height="100">
-      <img alt="Text changing depending on mode. Light: 'So light!' Dark: 'So dark!'" src="https://raw.githubusercontent.com/triangleEnvironmental/SWAP-BackOffice/main/resources/doc/graphic.png" height="100">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/triangleEnvironmental/SWAP-BackOffice/main/resources/doc/white_logo.png" height="200">
+      <img alt="SWAP Logo" src="https://raw.githubusercontent.com/triangleEnvironmental/SWAP-BackOffice/main/resources/doc/graphic.png" height="150">
     </picture>
   </a>
 
@@ -436,8 +436,8 @@ This Application was funded through the United States Agency for International D
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/triangleEnvironmental/SWAP-BackOffice/main/resources/doc/usaid_logo.png" height="100">
-    <img alt="Text changing depending on mode. Light: 'So light!' Dark: 'So dark!'" src="https://raw.githubusercontent.com/triangleEnvironmental/SWAP-BackOffice/main/resources/doc/usaid_logo.png" height="100">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/triangleEnvironmental/SWAP-BackOffice/main/resources/doc/usaid_logo.png" height="150">
+    <img alt="USAID Logo" src="https://raw.githubusercontent.com/triangleEnvironmental/SWAP-BackOffice/main/resources/doc/usaid_logo.png" height="100">
   </picture>
 </div>
 
