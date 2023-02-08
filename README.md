@@ -436,7 +436,7 @@ This Application was funded through the United States Agency for International D
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/triangleEnvironmental/SWAP-BackOffice/main/resources/doc/usaid_logo.png" height="150">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/triangleEnvironmental/SWAP-BackOffice/main/resources/doc/usaid_logo.png" height="100">
     <img alt="USAID Logo" src="https://raw.githubusercontent.com/triangleEnvironmental/SWAP-BackOffice/main/resources/doc/usaid_logo.png" height="100">
   </picture>
 </div>
