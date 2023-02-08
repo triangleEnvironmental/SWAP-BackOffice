@@ -11,7 +11,10 @@
 <br />
 <div align="center">
   <a href="https://github.com/triangleEnvironmental/SWAP-BackOffice">
-    <img src="https://raw.githubusercontent.com/triangleEnvironmental/SWAP-BackOffice/main/resources/doc/graphic.png" alt="Logo"  height="80">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/triangleEnvironmental/SWAP-BackOffice/main/resources/doc/white_logo.png" height="100">
+      <img alt="Text changing depending on mode. Light: 'So light!' Dark: 'So dark!'" src="https://raw.githubusercontent.com/triangleEnvironmental/SWAP-BackOffice/main/resources/doc/graphic.png" height="100">
+    </picture>
   </a>
 
   <h3 align="center">SWAP Back-Office</h3>
@@ -57,6 +60,7 @@
         <li><a href="#814-backup">Backup</a></li>
       </ul>
     </li>
+    <li><a href="#09-attribution">Attribution</a></li>
   </ol>
 </details>
 
@@ -423,6 +427,19 @@ To run backup manually:
 ```
 php artisan backup:run
 ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 09. Attribution
+
+This Application was funded through the United States Agency for International Development (USAID) from 2020-2022. The contents of this Application are the sole responsibility of Triangle Environmental Health Initiative, LLC and do not necessarily reflect the views of USAID or the United States Government.
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/triangleEnvironmental/SWAP-BackOffice/main/resources/doc/usaid_logo.png" height="100">
+    <img alt="Text changing depending on mode. Light: 'So light!' Dark: 'So dark!'" src="https://raw.githubusercontent.com/triangleEnvironmental/SWAP-BackOffice/main/resources/doc/usaid_logo.png" height="100">
+  </picture>
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
